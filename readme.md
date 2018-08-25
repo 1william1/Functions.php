@@ -22,6 +22,13 @@ The encryption method used in both Functions.net and Functions.php are the exact
 | GET                 | Makes an http get request with a custom useragent |
 | POST                | Makes an http POST request with a custom useragent|
 
+## Download
+
+Composer
+``composer require 1william1/functions-php``
+Git
+``git clone https://github.com/1william1/Functions.php.git``
+
 ## Install
 To use Functions.php in your own projects just include this command at the top of your code:
 ```php
