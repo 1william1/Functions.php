@@ -25,9 +25,13 @@ The encryption method used in both Functions.net and Functions.php are the exact
 ## Download
 
 Composer
-``composer require 1william1/functions-php``
+```
+composer require 1william1/functions-php
+```
 Git
-``git clone https://github.com/1william1/Functions.php.git``
+```
+git clone https://github.com/1william1/Functions.php.git
+```
 
 ## Install
 To use Functions.php in your own projects just include this command at the top of your code:
