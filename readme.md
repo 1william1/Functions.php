@@ -65,3 +65,36 @@ SHA512
 $hash = $functions->crypto->hash->sha512("my string");
 echo $hash;
 ```
+
+#### Encoding
+Base64 Encode
+```php
+$encoded = $functions->crypto->encoding->base64_encode("my string");
+echo $encoded;
+```
+Base64 Decode
+```php
+$decoded = $functions->crypto->encoding->base64_decode("my string");
+echo $decoded;
+```
+
+#### Web
+settings
+```
+useragent
+```
+
+GET REQUEST
+```php
+$data = $functions->web->get("https://example.com");
+echo $data;
+```
+POST REQUEST
+```php
+$post = array(
+    "username"=>"myamazing_username",
+    "password"=>"100%secure"
+);
+$data = $functions->web->post("https://example.com", $post);
+echo $data;
+```
