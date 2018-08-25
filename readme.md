@@ -43,3 +43,25 @@ Decrypt
 $decrypted = $functions->crypto->encryption->AES256Decrypt("Encryption key *32 chars only", "IV *32 chars only", "encrypted string");
 echo $decrypted;
 ```
+
+#### Hash
+MD5
+```php
+$hash = $functions->crypto->hash->md5("my string");
+echo $hash;
+```
+SHA1
+```php
+$hash = $functions->crypto->hash->sha1("my string");
+echo $hash;
+```
+SHA256
+```php
+$hash = $functions->crypto->hash->sha256("my string");
+echo $hash;
+```
+SHA512
+```php
+$hash = $functions->crypto->hash->sha512("my string");
+echo $hash;
+```
