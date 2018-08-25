@@ -7,7 +7,7 @@ The encryption method used in both Functions.net and Functions.php are the exact
 ## Features
 
 |                     | Description                                       |
-|--------------------:|--------------------------------------------------:|
+|---------------------|---------------------------------------------------|
 | AES-256-CBC ENCRYPT | Encrypts a string using the AES algorithm         |
 | AES-256-CBC DECRYPT | Decrypts a string using the AES algorithm         |
 | *Hash*              |                                                   |
