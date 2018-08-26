@@ -11,10 +11,10 @@ The encryption method used in both Functions.net and Functions.php are the exact
 | AES-256-CBC ENCRYPT | Encrypts a string using the AES algorithm         |
 | AES-256-CBC DECRYPT | Decrypts a string using the AES algorithm         |
 | *Hash*              |                                                   |
-| MD5                 | Hashs a string using MD5                          |
-| SHA1                | Hashs a string using SHA1                         |
-| SHA256              | Hashs a string using SHA256                       |
-| SHA512              | Hashs a string using SHA512                       |
+| MD5                 | Hashes a string using MD5                         |
+| SHA1                | Hashes a string using SHA1                         |
+| SHA256              | Hashes a string using SHA256                       |
+| SHA512              | Hashes a string using SHA512                       |
 | *Encoding*          |                                                   |
 | BASE64 ENCODE       | Encodes a string in base64                        |
 | BASE64 DECODE       | Decodes a string in base64                        |
